@@ -7,6 +7,9 @@
 >
 > Cau hinh git
 >> git config --global user.email phanhieu.hust64@gmail.com
+>> 
 >> git config --global user.name Hieu Phan
+>> 
 >> git config --global init.defaultBranch main
+>> 
 >> git config -- global core.editor vim
