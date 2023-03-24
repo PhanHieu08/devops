@@ -1,4 +1,4 @@
-> Tao local repo
+Tao local repo
 >> git init first_repo
 >
 >> cd first_repo
