@@ -1,20 +1,23 @@
-# Lien ket Local va Remote repo
+# Tuong tac remote va local repo
 >
-Tao repo moi tren Github la remote-repo
+Tao remote-repo tren Github
 >
-Tao local-repo
+Tao local repo
 > mkdir ~/local-repo
+>
 > cd local-repo
+>
 > git init
 >
-Tao lien ket giua remote va local repo
-> git remote add origin git@github.com:PhanHieu08/remote-repo.git
+Tao lien ket
+> git remote add origin git@github.com:PhanHieu08/remmote-repo.git
 >
 Kiem tra lien ket
 > git remote -v
 >
 Tao file moi 
-echo "Learn Git Remote" > README.md
+> touch README.md
+> echo "Learn Git Remote" > README.md
 >
 Kiem tra trang thai file trong git
 > git status
@@ -24,3 +27,6 @@ Them README.md vao stage
 >
 Tao commit
 > git commit -m "Create new file: README.md"
+>
+Dua commit vua tao len git
+> git push origin
