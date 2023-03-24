@@ -1,19 +1,19 @@
 Tao local repo
 > git init first_repo
 >
->> cd first_repo
+> cd first_repo
 >
->> ls -al
+> ls -al
 >
 Tao file README.md
->> echo "Learning Git" > README.md
+> echo "Learning Git" > README.md
 Kiem tra trang thai
 >
->> git status
+> git status
 Dua README.md vao vung stage
 >
->> git add README.md
+> git add README.md
 >
 Tao commit
->> git commit -m "Add README.md file"
+> git commit -m "Add README.md file"
 >
