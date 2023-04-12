@@ -10,3 +10,5 @@ services:
       - frontend
     ports:
       - "3000:80"
+    volumes: 
+      - "~/devops/Docker/Buoi_2/tictac/public:/var/www/html"
