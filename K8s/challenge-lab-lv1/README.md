@@ -1,4 +1,4 @@
-# Challenge lab 1: nginx
+# Challenge lab 1: default nginx 
 
 > **_NOTE:_**  Sử dụng KinD. File kind.conf từ kubelab của thầy Lâm
 
