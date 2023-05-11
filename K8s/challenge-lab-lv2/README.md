@@ -102,3 +102,5 @@ Sử dụng curl để kiểm tra service đã tạo
 ❯ curl 127.0.0.1:32002
 ```
 hoặc truy cập trực tiếp vào địa chỉ ip trên 
+
+![alt text](./images/staticweb.png)
