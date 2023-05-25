@@ -182,7 +182,5 @@ k  delete  -f  template/
 > Học viên tạo portforward tới WSL2 thực hiện xóa proxy rule
 
 > ```command
-
 > netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=0.0.0.0
-
 > ```
