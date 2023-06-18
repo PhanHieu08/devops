@@ -16,10 +16,7 @@ project demo được lấy tại github: https://github.com/liamhubian/techmast
 
 # Các bước thực hiện
 
-  
 
-
-```
 
 ### Bước 1: triển khai cơ sở dữ liệu MySQL
 Triển khai cơ sở dữ liệu MySQL lên trên một worker node
