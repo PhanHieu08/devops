@@ -14,43 +14,11 @@ project demo được lấy tại github: https://github.com/liamhubian/techmast
 
   
 
-# Chuẩn bị
-
-  
-
-Để hoàn thành bài lab, người học cần chuẩn bị:
-
-  
-
-- Cài đặt kubectl trên client
-
-- Cluster Kubernetes đang hoạt động và người học có khả năng kết nối tới cluster này
-
-- Có thể sử dụng các công cụ như minikube, docker-desktop kubernetes, KinD,... trên môi trường lab
-
-- thực hiện cấu hình alias trên terminal bằng command "alias k=kubectl"
-
-  
-
 # Các bước thực hiện
 
   
 
-### Bước 0: (optional) chuẩn bị Cluster
 
-  
-
-> **Note**
-
->
-
-> - Học viên chuẩn bị môi trường Kubernetes cho bài lab
-
-> - Với học viên sử dụng KinD, hãy tận dụng file kind.conf được chuẩn bị sẵn cho bài lab
-
-Tạo kind cluster từ file kind.conf có sẵn: 
-```
-kind create cluster --name obo-web --config kind.conf
 ```
 
 ### Bước 1: triển khai cơ sở dữ liệu MySQL
