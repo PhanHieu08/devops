@@ -126,25 +126,7 @@ Truy cập vào địa chỉ localhost:8081
 
 ![alt text](./images/localhost.png)
 
-# Clean up
 
-  
-
-Sau khi hoàn thành bài lab, học viên thực hiện xóa các tài nguyên
-
-  
-
-```bash
-
-k  delete  -f  template/
-
-```
-
-> **Note**
-
->
-
-> Học viên tạo portforward tới WSL2 thực hiện xóa proxy rule
 
 > ```command
 > netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=0.0.0.0
